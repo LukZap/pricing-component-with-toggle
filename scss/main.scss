@@ -111,7 +111,7 @@ main {
     text-align: center;
     margin-bottom: 35px;
     border-radius: 5px;
-    max-width: 400px;
+    min-width: 260px;
 
     &--light {
         background-color: $white;
@@ -206,7 +206,7 @@ main {
 
     .card {
         $self: &;
-        min-width: 260px;
+        min-width: 300px;
         border-radius: 10px;
 
         &--professional {

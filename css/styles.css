@@ -87,7 +87,7 @@ main {
   text-align: center;
   margin-bottom: 35px;
   border-radius: 5px;
-  max-width: 400px;
+  min-width: 260px;
 }
 .card--light {
   background-color: #FFF;
@@ -162,7 +162,7 @@ main {
     background-position-y: 0%, bottom;
   }
   .card {
-    min-width: 260px;
+    min-width: 300px;
     border-radius: 10px;
   }
   .card--professional .card__title {
